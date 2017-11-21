@@ -1,0 +1,464 @@
+body {
+	font-family: sans-serif;
+	font-size: 7pt;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+}
+
+#fbc_background {
+  	background-image: url('assets/mpdf/fbc_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#fbc60_background {
+  	background-image: url('assets/mpdf/fbc60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#srbc_background {
+  	background-image: url('assets/mpdf/srbc_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+	/*border: 1pt solid lightgrey;*/
+}
+
+#srbc60_background {
+  	background-image: url('assets/mpdf/srbc60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+	/*border: 1pt solid lightgrey;*/
+}
+
+#cbc_background {
+  	background-image: url('assets/mpdf/cbc_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#cbc60_background {
+  	background-image: url('assets/mpdf/cbc60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#lh_background {
+  	background-image: url('assets/mpdf/lh_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#lh60_background {
+  	background-image: url('assets/mpdf/lh60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#env_background {
+  	background-image: url('/assets/mpdf/env_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+	border: 1pt solid lightgrey;
+}
+
+#env60_background {
+  	background-image: url('assets/mpdf/env60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+	border: 1pt solid lightgrey;
+}
+
+#env_background_print {
+  	background-image: url('assets/mpdf/env_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#env60_background_print {
+  	background-image: url('assets/mpdf/env60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#np_background {
+  	background-image: url('assets/mpdf/np_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+#np60_background {
+  	background-image: url('assets/mpdf/np60_template.jpg');
+  	background-size:100%;
+	background-repeat:no-repeat;
+	padding-bottom: 0;
+	padding-top: 0;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+
+.body {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-family: sans-serif;
+	font-size: 7pt;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	position: relative;
+}
+div {
+	font-size: 10pt;
+	min-height: 100%;
+	height: auto;	
+}
+
+h1 {
+	margin-left: 3em;
+}	
+
+#corp_name {
+	position: relative;
+	float:right;
+	text-align: right;
+	font-family: helveticaneuelt;
+	line-height: 125%;
+	margin-right: 15mm;
+	padding-top: 30mm;
+	font-size: 10pt;
+}
+
+#corp_title {	
+	float:right;
+	text-align: right;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	margin-right: 15mm;
+	padding-bottom: 3mm;
+	font-size: 8pt;
+}
+
+#fran_name {
+	position: relative;
+	float:left;
+	text-align: left;
+	font-family: helveticaneuelt;
+	line-height: 125%;
+	margin-left: 17mm;
+	padding-top: 30mm;
+	font-size: 10pt;
+}
+
+#corp_np_name {
+	position: relative;
+/*	float:left;
+*/	text-align: left;
+	font-family: helveticaneuemdcn;
+	line-height: 135%;
+	margin-left: 8.5mm;
+	margin-bottom: 0mm;
+	padding-top: 18mm;
+	font-size: 8pt;
+	clear: both;
+}
+
+#fran_np_name {
+	position: relative;
+/*	float:left;
+*/	text-align: left;
+	font-family: helveticaneuemdcn;
+	line-height: 135%;
+	margin-left: 8.5mm;
+	margin-bottom: 0mm;
+	padding-top: 18mm;
+	font-size: 8pt;
+	clear: both;
+}
+
+#fran_np60_name {
+	position: relative;
+/*	float:left;
+*/	text-align: left;
+	font-family: helveticaneuemdcn;
+	line-height: 135%;
+	margin-left: 8.5mm;
+	margin-bottom: 0mm;
+	padding-top: 18mm;
+	font-size: 8pt;
+	clear: both;
+}
+
+#srbc_name {
+	position: relative;
+	float:left;
+	text-align: left;
+	font-family: helveticaneuelt;
+	line-height: 125%;
+	margin-left: 17mm;
+	padding-top: 26mm;
+	font-size: 10pt;
+}
+
+#fran_title {
+	position: relative;	
+	float:left;
+	text-align: left;
+	font-family: helveticaneueltcn;
+	line-height: 120%;
+	margin-left: 17mm;
+	font-size: 8pt;
+}
+
+#corp_np_title {
+	position: relative;	
+	float:left;
+	text-align: left;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	padding-top: .75mm;
+	margin-left: 8.5mm;
+	font-size: 8pt;
+}
+
+#fran_np_title {
+	position: relative;	
+	float:left;
+	text-align: left;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	padding-top: .75mm;
+	margin-left: 8.5mm;
+	font-size: 8pt;
+}
+
+#fran_np60_title {
+	position: relative;	
+	float:left;
+	text-align: left;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	padding-top: .75mm;
+	margin-left: 8.5mm;
+	font-size: 8pt;
+}
+
+#address {
+	float: left;
+	text-align: left;
+	margin-left: 17mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 1.5mm;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	font-size: 8pt;
+}
+
+#srbc_address {
+	float: left;
+	text-align: left;
+	margin-left: 17mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 1mm;
+	font-family: helveticaneueltcn;
+	line-height: 110%;
+	font-size: 8pt;
+}
+
+#corp_lh_address {
+	position: relative;
+	float:right;
+	text-align: center;
+	font-family: helveticaneuelt;
+	line-height: 130%;
+	margin-right: 1mm;
+	padding-top: 129mm;
+	font-size: 5pt;
+}
+
+#fran_lh_address {
+	position: relative;
+	float:right;
+	text-align: center;
+	font-family: helveticaneuelt;
+	line-height: 130%;
+	margin-right: 0;
+	padding-top: 129mm;
+	font-size: 5pt;
+}
+
+#corp_env_address {
+	float: left;
+	text-align: left;
+	margin-left: 7mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: -36mm;
+	font-family: helveticaneuelt;
+	line-height: 135%;
+	font-size: 4pt;
+}
+
+#corp_env60_address {
+	float: left;
+	text-align: left;
+	margin-left: 7mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: -36mm;
+	font-family: helveticaneuelt;
+	line-height: 135%;
+	font-size: 4pt;
+}
+
+#corp_env_address_print {
+	float: left;
+	text-align: left;
+	margin-left: 14mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: -75mm;
+	font-family: helveticaneuelt;
+	line-height: 135%;
+	font-size: 8pt;
+}
+
+
+#fran_env_address {
+	float: left;
+	text-align: left;
+	margin-left: 7mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: -36mm;
+	font-family: helveticaneuelt;
+	line-height: 135%;
+	font-size: 4pt;
+}
+
+#fran_env_address_print {
+	float: left;
+	text-align: left;
+	margin-left: 14mm;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: -75mm;
+	font-family: helveticaneuelt;
+	line-height: 135%;
+	font-size: 8pt;
+}
+
+#corp_np_address {
+	position: relative;
+	float:right;
+	text-align: center;
+	font-family: helveticaneueltcn;
+	line-height: 130%;
+	margin-right: 8.5mm;
+	margin-left: 0px;
+	margin-bottom: 115mm;
+	padding-top: 0mm;
+	font-size: 7.5pt;
+}
+
+#fran_np_address {
+	position: relative;
+	float:right;
+	text-align: center;
+	font-family: helveticaneueltcn;
+	line-height: 130%;
+	margin-right: 8.5mm;
+	margin-left: 0px;
+	margin-bottom: 115mm;
+	padding-top: 0mm;
+	font-size: 7.5pt;
+}
+
+
+
+
+
+
+
